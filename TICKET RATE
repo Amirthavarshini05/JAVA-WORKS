@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class tick
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		String a = sc.nextLine();
+		int b = sc.nextInt();
+		double c,d;
+		if (a.equals("Regular"))
+		{
+			c=b*50;
+			if (b>10)
+				d=c-(c*(10/100.0));
+			else
+				d=c;
+			if (c<200)
+				d+=20;
+		        System.out.println(d);	
+		}
+		if (a.equals("VIP"))
+		{
+			c=b*100;
+			if (b>5)
+				d=c-(c*(15/100.0));
+			else
+				d=c;
+			if (c<200)
+				d+=20;
+		        System.out.println(d);	
+
+		}
+		if (a.equals("Premium"))
+		{
+			c=b*150;
+			if (b>3)
+				d=c-(c*(20/100.0));
+			else
+				d=c;
+			if (c<200)
+				d+=20;
+		        System.out.println(d);	
+
+		}
+				
+	}
+}
