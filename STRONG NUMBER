@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class strng
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int num=n;
+		int f,r,s=0;
+		while(n>0)
+		{
+			r=n%10;
+			f=fact(r);
+			n=n/10;
+			s+=f;
+		}
+		if (num==s)
+			System.out.println("Strong number");
+		else
+			System.out.println("Not a strong number");
+	}
+
+	static int fact(int w)
+	{
+		int p=1;
+		for(int i=w;i>0;i--)
+		{
+			p*=i;
+		}
+		return p;
+	}
+}
