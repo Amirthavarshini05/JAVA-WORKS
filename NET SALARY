@@ -1,0 +1,24 @@
+//FIND THE NET SALARY
+
+//PROGRAM:
+
+public class salary
+{
+    static int gross= 5000;
+    static int tax=20;
+    public static void main(String[] args)
+    {
+        salary(gross,tax);
+    }
+    public static void salary(int a,int b)
+    {
+        float c=a*((float)b/(float)100);
+        float net= a-c;
+        System.out.println(net);
+
+    }
+}
+
+//SAMPLE OUTPUT:	
+
+//4000.0
