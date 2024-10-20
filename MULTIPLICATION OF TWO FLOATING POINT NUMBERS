@@ -1,0 +1,22 @@
+//MULTIPLICATION OF TWO FLOATING POINT NUMBERS:
+
+//PROGRAM:
+
+public class mul
+{
+	public static void main(String[] args)
+	{
+		multiply(9.00f,7.00f);
+	}
+
+	public static void multiply(float a,float b)
+	{
+		float c;
+		c=a+b;
+		System.out.println("Answer: "+c);
+	}
+}
+
+//SAMPLE OUTPUT:
+
+//Answer: 16.0
