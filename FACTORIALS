@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class strng
+{
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		int f,r;
+		while(n>0)
+		{
+			r=n%10;
+			f=fact(n);
+			n=n/10;
+		}
+	}
+
+	int fact(int n)
+	{
+		int sum=1;
+		for(int i=n;n>0;i++)
+		{
+			sum*=i;
+		}
+		return sum;
+	}
+}
