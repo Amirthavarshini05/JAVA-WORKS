@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class week
+{
+	public static void main (String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		String st =s.nextLine();
+		switch(st)
+		{
+			case "Monday":
+				System.out.println("It’s a weekday");
+				break;
+			case "Tuesday":
+				System.out.println("It’s a weekday");
+				break;
+			case "Wednesday":
+				System.out.println("It’s a weekday");
+				break;
+			case "Thursday":
+				System.out.println("It’s a weekday");
+				break;
+			case "Friday":
+				System.out.println("It’s a weekday");
+				break;
+			case "Saturday":
+				System.out.println("It’s a weekend");				
+				break;
+			case "Sunday":
+				System.out.println("It’s a weekend");
+				break;
+			default:
+				System.out.println("Invalid day");
+				break;
+		}
+	}
+}
