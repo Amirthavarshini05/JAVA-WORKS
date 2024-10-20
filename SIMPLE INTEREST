@@ -1,0 +1,19 @@
+//FIND SIMPLE INTEREST:
+
+//PROGRAM:
+
+public class Simple
+{
+	public static void main(String[] args)
+	{
+		int p=100;
+		int r=5;
+		int t=8;
+		float s=(float)(p*r*t)/100;
+		System.out.println("simple interest: "+s);
+	}
+}
+
+//SAMPLE OUTPUT:
+
+//simple interest: 40.0
