@@ -1,0 +1,23 @@
+//FIND THE SUM OF 2 BINARY NUMBER
+
+//PROGRAM:
+
+public class binary
+{
+    static String b1 = "1011";
+    static String b2 = "1101";
+    public static void main(String[] args)
+    {
+        int n1 = Integer.parseInt(b1, 2);
+        int n2 = Integer.parseInt(b2, 2);
+        int sum = n1 + n2;
+
+        String Sum = Integer.toBinaryString(sum);
+
+        System.out.println("Sum: " + Sum);
+    }
+}
+
+//SAMPLE OUTPUT:
+
+//Sum: 11000
