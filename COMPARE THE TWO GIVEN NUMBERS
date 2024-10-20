@@ -1,0 +1,45 @@
+//COMPARE THE TWO GIVEN NUMBERS
+
+//PROGRAM:
+
+import java.util.Scanner;
+
+class Compare
+{
+public static void main(String[] args)
+{
+int n,m;
+Scanner s = new Scanner(System.in);
+System.out.print("Input first integer: ");
+n = s.nextInt();
+System.out.print("Input second integer: ");
+m = s.nextInt();
+if (n == m)
+System.out.println(n+" "+"=="+" "+m);
+if (n != m)
+System.out.println(n+" "+"!="+" "+m);
+if (n < m)
+System.out.println(n+" "+"<"+" "+m);
+if (n > m)
+System.out.println(n+" "+">"+' '+m);
+if (n <= m)
+System.out.println(n+" "+"<="+' '+m);
+if (n >= m)
+System.out.println(n+" "+">="+' '+m);
+
+}
+}
+
+
+/*SAMPLE INPUT:
+
+Input first integer: 25
+Input second integer: 37
+
+
+SAMPLE OUTPUT:
+
+25 != 37
+25 < 37
+25 <= 37
+*/
