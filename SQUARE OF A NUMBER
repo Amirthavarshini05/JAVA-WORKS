@@ -1,0 +1,22 @@
+//FIND THE SQUARE OF A NUMBER:
+
+//PROGRAM:
+
+public class multiply
+{
+	public static void main(String[] args)
+	{
+		square(2);
+	}
+
+	public static void square(int a)
+	{
+		int b;
+		b=a*a;
+		System.out.println(b);
+	}
+}
+
+//SAMPLE OUTPUT:
+
+//4
