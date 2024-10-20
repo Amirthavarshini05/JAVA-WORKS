@@ -1,0 +1,19 @@
+//PRINT DETAILS:
+
+//PROGRAM:
+
+public class details
+{
+	public static void main(String[] args)
+	{
+		System.out.println("R.U.Amirthavarshini");
+		System.out.println("9443467856");
+		System.out.println("230701027@rajalskhmi.edu.in");
+	}
+}
+
+//SAMPLE OUTPUT:
+
+//R.U.Amirthavarshini
+//9443467856
+//230701027@rajalskhmi.edu.in
