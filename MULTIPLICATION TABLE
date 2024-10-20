@@ -1,0 +1,41 @@
+//PROGRAM FOR MULTIPLICATION TABLE
+
+//PROGRAM:
+
+import java.util.Scanner;
+
+class table
+{
+	public static void main(String[] args)
+	{
+		int a;
+		Scanner s= new Scanner(System.in);
+		System.out.print("Input a number: ");
+		a=s.nextInt();
+		for (int i=1;i<=10;i++)
+		{
+			System.out.println(a+" "+"x"+" "+i+" "+"="+" "+(a*i));
+		}
+	}
+}
+		
+
+/*SAMPLE INPUT:
+
+Input a number: 8
+
+
+SAMPLE OUTPUT:
+
+8 x 1 = 8
+8 x 2 = 16
+8 x 3 = 24
+8 x 4 = 32
+8 x 5 = 40
+8 x 6 = 48
+8 x 7 = 56
+8 x 8 = 64
+8 x 9 = 72
+8 x 10 = 80
+*/
+			
